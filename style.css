@@ -1,0 +1,1409 @@
+body
+{
+    margin:0px;
+}
+*
+{
+    box-sizing: border-box;
+}
+.sectionheader
+{
+    width: 100%;
+    height: 150vh;
+    background-image: url("https://149842022.v2.pressablecdn.com/illdy/wp-content/themes/illdy/layout/images/front-page/front-page-header.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+header
+{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+header .logo
+{
+    width: 30%;
+    height: 100%;
+    position: relative;
+}
+header .logo img
+{
+    position: absolute;
+    top: 35px;
+    left: 140px;
+
+}
+header .links
+{
+    width: 70%;
+    height: 100%;
+    position: relative;
+
+
+}
+.links ul 
+{
+    list-style-type: none;
+    position: absolute;
+    top: 35px;
+    left: 170px;
+    padding: 1px 2px;
+    display: flex;
+    justify-content: space-between;
+
+    
+        
+}
+.links ul li 
+{
+    margin-right: 25px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+
+    
+}
+.links ul li a
+{
+    text-decoration: none;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+}
+.links ul li a:hover
+{
+    text-decoration: none;
+    color:yellow;
+}
+.titleheader
+{
+    text-align: center;
+    width: 100%;
+    height: 300px;
+    color: white;
+    position: absolute;
+    top: 350px;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+.titleheader h1
+{
+    font-size: 60px;
+    margin-bottom: 5px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    letter-spacing: 2.5px;
+    
+}
+.titleheader p
+{
+    font-family: "Montserrat", sans-serif;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    padding-left: 300px;
+    padding-right:300px; 
+
+    
+}
+
+
+span
+{
+    color:yellow;
+    font-size: 60px;
+}
+.titleheader .btn
+{
+    padding: 20px 80px;
+    background-color: transparent;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    
+}
+.titleheader .btn1
+{
+    margin-right: 20px;
+    border: 4px solid white;
+}
+.titleheader .btn2
+{
+   background-color: yellow;
+   border: 4px solid yellow;
+   transition: 1s;
+}
+.titleheader .btn2:hover
+{
+    background-color:#9b51e0;    
+    border: 4px solid #9b51e0 ;
+    cursor: pointer;
+
+}
+
+.sectionabout
+{
+    width: 100%;
+    height: 70vh;
+    background-color: white;
+    
+}
+.sectionabout .about
+{
+    width: 100%;
+    height: 100%; 
+    position: relative;
+     
+}
+.sectionabout .about .abouttitle
+{
+    width: 1121px;
+    height: 40%;
+    text-align: center;
+    padding-top: 60px;
+    position: absolute;
+    top:103px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+.sectionabout .about .abouttitle h3
+{
+    font-family: "Montserrat", sans-serif;
+    color: #545454;
+    margin: 0px 0px 45px 0px;
+    font-weight: bold;
+    font-size: 30px;
+    
+    
+}
+.sectionabout .about .abouttitle p
+{
+    font-family: "Lato", sans-serif;
+    color:#8c9597;
+    word-spacing: 1px;
+    font-weight: 400;
+    font-size: 16px;
+
+}
+
+.sectionabout .about .skillsabout
+{
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding-top: 50px;
+}  
+.sectionabout .about .skillsabout .allskills
+{
+    width: 100%;
+    height: 100%;
+    padding-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+.sectionabout .about .skillsabout .allskills .skill1
+{
+    width: 20%;
+    height: 2px;
+    background-color: #ebebeb;
+    margin-right: 30px;
+}
+.sectionabout .about .skillsabout .allskills .skill1 .range
+{
+    width: 60%;
+    height: 100%;
+    background-color: rgb(241, 139, 109);
+    position: relative;
+
+}
+.sectionabout .about .skillsabout .allskills .skill1 .range .rangecircle
+{
+    position: absolute;
+    top: -4px;
+    right: 0;
+    width: 9px;
+    height: 9px;
+    background-color: rgb(241, 139, 109);
+    border-radius: 50%;
+}
+.sectionabout .about .skillsabout .allskills .skill1 .range .rangecircle .rangecircletitle
+{
+    position: absolute;
+    top:-38px;
+    right: -28px;
+    background-color:  rgb(241, 139, 109);
+    border-radius: 3px;
+    width: 64px;
+    height: 29px;
+    text-align: center;
+    color:white;
+    padding: 5px 4px;
+    font-family: "Lato", sans-serif;
+
+} 
+.sectionabout .about .skillsabout .allskills .skill1 .range .rangecircle .rangecircletitle .ui-progressbar-value-triangle
+ {
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    position: absolute;
+    bottom: -5px;
+    right: 27px;
+    border-width: 5px 5.5px  0px 5.5px;
+
+ }
+.sectionabout .about .skillsabout .allskills .skill2
+{
+    width: 20%;
+    height: 2px;
+    background-color: #ebebeb;
+    margin-right: 30px;
+}
+.sectionabout .about .skillsabout .allskills .skill2 .range
+{
+    width: 75%;
+    height: 100%;
+    background-color: rgb(241, 139, 109);
+    position: relative;
+
+}
+.sectionabout .about .skillsabout .allskills .skill2 .range .rangecircle
+{
+    position: absolute;
+    top: -4px;
+    right: 0;
+    width: 9px;
+    height: 9px;
+    background-color: rgb(241, 139, 109);
+    border-radius: 50%;
+}
+.sectionabout .about .skillsabout .allskills .skill2 .range .rangecircle .rangecircletitle
+{
+    position: absolute;
+    top:-38px;
+    right: -28px;
+    background-color:  rgb(241, 139, 109);
+    border-radius: 3px;
+    width: 64px;
+    height: 29px;
+    text-align: center;
+    color:white;
+    padding: 5px 4px;
+    font-family: "Lato", sans-serif;
+
+} 
+.sectionabout .about .skillsabout .allskills .skill2 .range .rangecircle .rangecircletitle .ui-progressbar-value-triangle
+ {
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    position: absolute;
+    bottom: -5px;
+    right: 27px;
+    border-width: 5px 5.5px  0px 5.5px;
+ }
+.sectionabout .about .skillsabout .allskills .skill3
+{
+    width: 20%;
+    height: 2px;
+    background-color: #ebebeb;
+    margin-right: 30px;
+}
+.sectionabout .about .skillsabout .allskills .skill3 .range
+{
+    width: 95%;
+    height: 100%;
+    background-color: rgb(106, 77, 138);
+    position: relative;
+
+}
+.sectionabout .about .skillsabout .allskills .skill3 .range .rangecircle
+{
+    position: absolute;
+    top: -4px;
+    right: 0;
+    width: 9px;
+    height: 9px;
+    background-color: rgb(106, 77, 138);
+    border-radius: 50%;
+}
+.sectionabout .about .skillsabout .allskills .skill3 .range .rangecircle .rangecircletitle
+{
+    position: absolute;
+    top:-38px;
+    right: -28px;
+    background-color:  rgb(106, 77, 138);
+    border-radius: 3px;
+    width: 64px;
+    height: 29px;
+    text-align: center;
+    color:white;
+    padding: 5px 4px;
+    font-family: "Lato", sans-serif;
+
+} 
+.sectionabout .about .skillsabout .allskills .skill3 .range .rangecircle .rangecircletitle .ui-progressbar-value-triangle
+ {
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    position: absolute;
+    bottom: -5px;
+    right: 27px;
+    border-width: 5px 5.5px  0px 5.5px;
+
+ }
+
+ .sectionabout .about .skillsabout .allskills .skill3 .ww
+ {
+    width: 186px;
+    margin-top: 10px;
+    height: 20px;
+    text-align: left;
+    font-family: "Lato", sans-serif;
+    
+ }
+ .sectionabout .about .skillsabout .allskills .skill1 .ww
+ {
+    width: 186px;
+    margin-top: 10px;
+    height: 20px;
+    text-align: left;
+    font-family: "Lato", sans-serif;
+    
+ }
+ .sectionabout .about .skillsabout .allskills .skill2 .ww
+ {
+    width: 186px;
+    margin-top: 10px;
+    height: 20px;
+    text-align: left;
+    font-family: "Lato", sans-serif;
+    
+ }
+
+ .sectionprojects
+ {
+    width: 100%;
+    height: 70vh;
+    background-image: url("https://149842022.v2.pressablecdn.com/illdy/wp-content/themes/illdy/layout/images/front-page/pattern.png");
+    background-repeat: repeat;
+    background-size: auto;
+    background-attachment: fixed;
+
+ }
+ .sectionprojects .projectstitle
+ {
+    width: 100%;
+    height: 30%;
+    text-align: center;
+    padding: 40px 60px;
+    margin-bottom: 30px;
+
+
+ }
+ .sectionprojects .projectstitle h2
+ {
+    margin: 0px 0px;
+    font-family: "Montserrat", sans-serif;
+    color: #545454;
+    font-size: 26px;
+ }
+ .sectionprojects .projectstitle p
+ {
+    
+    font-family: "Lato", sans-serif;
+    color:#8c9597;
+    margin: 5px 0px 0px 0px;
+ }
+ .sectionprojects .photosprojects 
+ {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .sectionprojects .photosprojects .project1
+ {
+    width: 25%;
+    height: 100%;
+    position: relative;
+ }
+ .sectionprojects .photosprojects img
+ {
+    width: 100%;
+    height: 100%;
+ }
+
+ .sectionprojects .photosprojects .project1:hover
+ {
+    opacity: 0.5;
+ }
+ .sectionopinions
+ {
+    width: 100%;
+    height: 105vh;
+    background-image: url("https://149842022.v2.pressablecdn.com/illdy/wp-content/themes/illdy/layout/images/testiomnials-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+ .sectionopinions .opinionstitile
+ {
+    width: 100%;
+    height: 25%;
+    text-align: center;
+    padding: 50px; 
+}
+.sectionopinions .opinionstitile h2
+{
+    color: white;
+    font-size: 30px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+
+}
+.sectionopinions .opinions
+{
+    width: 100%;
+    height: 60%;
+    margin-top: 6px;
+    text-align: center;
+}
+.sectionopinions .opinions img
+{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.sectionopinions .opinions .opinionspeople
+{
+    width: 80%;
+    height: 40%;
+    background-color: #6a4d8a;
+    margin: 30px auto;
+    position: relative;
+}
+.sectionopinions .opinions .opinionspeople p
+{
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    padding: 40px 20px 20px 20px ;
+}
+.sectionopinions .opinions .opinionspeople .ui-progressbar-value-triangle2
+{
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    position: absolute;
+    top: 100%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    border-width: 42px 50px 0 50px;
+}
+.sectionopinions .opinions .opinionspeople .opinionpeoplename
+{
+    width: 46%;
+    height: 20%;
+    position: absolute; 
+    top: 130%;
+    left: 27%;
+    transform: translate(-50%-50%);
+    color: white;
+    text-align: center;
+}
+.sectionopinions .opinions .opinionspeople .opinionpeoplename h4
+{
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0px;
+    margin-bottom: 50px;
+}
+.sectionopinions .opinions .opinionspeople .opinionpeoplename .divborderredius
+{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sectionopinions .opinions .opinionspeople .opinionpeoplename .divborderredius .div1
+{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: white;
+    border: 1px solid #fff;
+    margin-right: 15px;
+}
+.sectionopinions .opinions .opinionspeople .opinionpeoplename .divborderredius .div1:hover
+{
+    cursor: pointer;
+    transition: .3s;
+    border: 1px solid #fff;
+    background-color: transparent;
+}
+.sectionservices
+{
+    width: 100%;
+    height: 65vh;
+    background-color: white;
+}
+.servicestitle
+{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.servicestitle h1
+{
+    margin-bottom: -12px;
+    color:#545454;
+    font-family: "Montserrat", sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+}
+.servicestitle p
+{
+    color:#8c9597;
+    font-family: "Montserrat", sans-serif;
+}
+.services
+{
+    width:100%;
+    height: 70%;
+    margin-bottom: 50xp;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.service1
+{
+    width: 27%;
+    text-align: center;
+
+}
+.service1 i
+{
+    font-size: 20px;
+}
+
+.service1 h4
+{
+    color:rgb(241, 139, 109);
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: 900px;
+    margin-top: 5px;    
+
+}
+.service1 p
+{
+    font-family: "Montserrat", sans-serif;
+    color:#8c9597 ;
+    font-size: 17px;
+
+}
+
+.sectionlastnews
+{
+    width: 100%;
+    height: 160vh;
+    background-color: #222f36;
+}
+.sectionlastnews .lastnewstitle
+{
+    width: 100%;
+    height: 30%;
+    text-align: center;
+    padding: 60px 60px 0px;
+}
+.sectionlastnews .lastnewstitle h2
+{
+    margin: 0px;
+    margin-bottom: 4px;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-size: 25px;
+    font-weight: 900;
+}
+.sectionlastnews .lastnewstitle p
+{
+    margin: 0px;
+    color: #8c9597;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+.sectionlastnews .lastnewstitle button
+{
+    background-color:#f1d204 ;
+    border: 1px solid #f1d204;
+    padding: 20px 50px;
+    border-radius: 4px;
+    color: white;
+    font-size: 15px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    
+
+}
+
+.sectionlastnews .lastnewstitle button:hover
+{
+    background-color:#6a4d8a ;
+    border: 1px solid #6a4d8a;
+    transition: 1s;
+    cursor: pointer;
+}
+.sectionlastnews .alllastnews
+{
+    margin-top: 20px;
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    
+
+}
+.sectionlastnews .alllastnews .new1
+{
+    width: 28%;
+    height: 90%;
+    background-color: #fff;
+    margin-right: 2%;
+    margin-bottom: 80px;
+}
+.sectionlastnews .alllastnews .new1 img
+{
+    width: 100%;
+    height: 40%;
+    
+}
+.sectionlastnews .alllastnews .new1 h4
+{
+    color:#5e5e5e ;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    margin: 0px;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding: 20px 30px 0px  ;
+    font-family: "Montserrat", sans-serif;
+
+    
+
+    
+}
+.sectionlastnews .alllastnews .new1 h4:hover
+{
+    color: #f1d204;
+    cursor: pointer;
+    transition: .3s;
+}
+.sectionlastnews .alllastnews .new1 p
+{
+    color: #8c9597;
+    margin: 0px;
+    padding: 30px 15px 60px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+}
+.sectionlastnews .alllastnews .new1 a
+{
+    text-decoration: none;
+    color:#f1d204 ;
+    padding-left: 40px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+
+    
+}
+.sectionlastnews .alllastnews .new1 i
+{
+    padding-right: 10px;
+}
+.sectionlastnews .alllastnews .new1 .btn:hover,
+.sectionlastnews .alllastnews .new1 .btn:focus
+{
+    color: #6a4d8a;
+    cursor: pointer;
+    transition: .3s;
+}
+
+
+.sectionnumbers
+{
+    width: 100%;
+    height: 40vh;
+    background-image: url("https://149842022.v2.pressablecdn.com/illdy/wp-content/themes/illdy/layout/images/front-page/front-page-counter.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+.sectionnumbers .numbers
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.sectionnumbers .numbers .number1
+{
+    width: 30%;
+    height: 50%;
+    text-align: center;
+    color: white;
+    border-right: 1px solid white;
+}
+.sectionnumbers .numbers .number1 h3
+{
+    font-size: 70px;
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+    padding-bottom: 0px;
+    margin: 0px;
+}
+.sectionnumbers .numbers .number1 p
+{
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    padding-bottom: 0px;
+    margin: 0px;
+
+}
+.sectionteam
+{
+    width: 100%;
+    height: 80vh;
+    background-image: url("https://149842022.v2.pressablecdn.com/illdy/wp-content/themes/illdy/layout/images/front-page/pattern.png");
+    background-repeat:repeat;
+    background-size: auto;
+    background-attachment: fixed;
+}
+.sectionteam .teamtitle
+{
+    width: 100%;
+    height: 30%;
+    text-align: center;
+    padding-top: 50px;
+
+}
+.sectionteam .teamtitle h3
+{
+    margin: 0px 0px 5px 0px;
+    color: #545454;
+    font-family: "Lato", sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+
+}
+.sectionteam .teamtitle p
+{
+    color: #8c9597;
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    margin: 0px;   
+
+}
+.sectionteam .teammembers
+{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sectionteam .teammembers .member1
+{
+    width: 32%;
+    height: 70%;
+    padding: 35px 20px;
+    display: flex;
+
+}
+.sectionteam .teammembers .member1 .memberphoto
+{
+    padding-right: 15px;
+}
+.sectionteam .teammembers .member1 .memberphoto img
+{
+    width: 122px;
+    height: 122px;
+    border-radius: 50%;
+
+}
+.sectionteam .teammembers .member1 .memberdescription 
+{
+    height: 125%;
+    padding-top: 8px;
+
+}
+.sectionteam .teammembers .member1 .memberdescription h3
+{
+    margin: 0px 0px 5px 0px;
+    color: #5e5e5e;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700px;
+
+
+} 
+.sectionteam .teammembers .member1 .memberdescription 
+.p1
+{
+    color:rgb(241, 139, 109) ;
+    font-family: "Poppins", sans-serif;
+    margin: 0px 0px 30px 0px;
+    
+}
+.sectionteam .teammembers .member1 .memberdescription 
+.p2
+{
+    color: #8c9597;
+    font-family: "Poppins", sans-serif;
+    margin: 0px 0px 5px 0px ;
+    font-weight: 300;
+
+}
+.sectionteam .teammembers .member1 .memberdescription 
+.memberlinks
+{
+    width: 100%;
+    height: 12%;
+    /* background-color: aqua; */
+    text-align: left;
+    display: flex;
+}
+.sectionteam .teammembers .member1 .memberdescription 
+.memberlinks .link1
+{
+    width: 25px;
+    height: 25px;
+    margin-right: 20px;
+    color:rgb(241, 139, 109);
+    border-style: solid;
+    border-color: rgb(241, 139, 109);
+    border-radius: 50%;
+    text-align: center;
+    font-size: 10px;
+    padding: 5px;
+    transition: 1s;
+}
+.sectionteam .teammembers .member1 .memberdescription 
+.memberlinks .link2
+{
+    width: 25px;
+    height: 25px;
+    margin-right: 20px;
+    color:rgb(241, 210, 4);
+    border-style: solid;
+    border-color: rgb(241, 210, 4);
+    border-radius: 50%;
+    text-align: center;
+    font-size: 10px;
+    padding: 5px;
+    transition: 1s;
+
+}
+.sectionteam .teammembers .member1 .memberdescription 
+.memberlinks .link3
+{
+    width: 25px;
+    height: 25px;
+    margin-right: 20px;
+    color:rgb(106, 77, 138);
+    border-style: solid;
+    border-color: rgb(106, 77, 138);
+    border-radius: 50%;
+    text-align: center;
+    font-size: 10px;
+    padding: 5px;
+    transition: 1s;
+
+}
+.sectioncontact
+{
+    width: 80%;
+    margin: auto;
+    height: 110vh;
+    background-color: white;
+}
+.sectioncontact .contacttitle
+{
+    width: 100%;
+    height: 15%;
+    text-align: center;
+    padding: 30px 60px;
+    margin-bottom: 7px;
+} 
+.sectioncontact .contacttitle h3
+{
+    color: #545454;
+    margin: 0px;
+    font-weight: 700;
+    font-size: 35px;
+    font-family: "Poppins", sans-serif;
+} 
+.sectioncontact .contactsupport
+{
+    width: 100%;
+    height: 20%;
+    padding-top: 30px;
+    
+}
+.sectioncontact .contactsupport .support
+{
+    width: 100%;
+    height: 55% ;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.sectioncontact .contactsupport .support .supporttitl
+{
+    width: 10%;
+    height: 100%;
+    border-right: 1px solid #8c9597;
+    margin: 0px;
+    
+    padding-top: 1px;
+}
+.sectioncontact .contactsupport .support .supporttitl h3
+{
+    color:  #f1d204;
+    font-family: "Lato", sans-serif;
+    font-size: 15px;
+    margin: 0px;
+    padding-bottom: 10px;
+    padding-right: 40px;
+    padding-left: 20px;
+
+}
+.sectioncontact .contactsupport .support .supportdescription
+{
+    width: 15%;
+    height: 100%;
+    padding-top: 0px;
+    /* margin-right: 40px; */
+}
+.sectioncontact .contactsupport .support .supportdescription p
+{
+    margin: 0px;
+    color: #8c9597;
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+}
+
+.sectioncontact .contactsupport .support .linkss
+{
+    text-decoration: none;
+    margin-left: 270px;
+    
+    padding: 20px 0px;
+}
+.sectioncontact .contactsupport .support .linkss a
+{
+   
+    text-decoration: none;
+    padding-right: 5px;
+
+}
+.sectioncontact .contactsupport .support .linkss i
+{
+    color: #8c9597;
+
+}
+.sectioncontact .contactsupport .support .linkss i:hover
+{
+    transition: 1s;
+    color:black;
+    cursor: pointer;
+}
+
+.sectioncontact .form
+{
+    width: 100%;
+    height: 60%;
+    
+}
+.sectioncontact .form form 
+{
+    display: flex;
+    justify-content: center;
+
+    
+
+}
+.sectioncontact .form form .sub
+{
+    margin-right: 30px;
+}
+.sectioncontact .form form .input
+{
+    color: #8c9597;
+    border: 1px solid #e1e1e1;
+    width: 255px;
+    height: 30px;
+    color: #8c959744;
+    background-color: #fcfcfc;
+    
+}
+.sectioncontact .form form .input::placeholder
+{
+    color: #e1e1e1;
+}
+.sectioncontact .form form .lable
+{
+    color: #8c9597;
+    font-family: "Lato", sans-serif;
+    font-size: 20px;
+}
+.sectioncontact .form .input
+{
+    
+    width: 255px;
+    height: 30px;
+    color: #8c959744;
+    background-color: #fcfcfc;
+}
+
+.sectioncontact .form .lable
+{
+    color: #8c9597;
+    font-family: "Lato", sans-serif;
+    font-size: 20px;
+}
+
+footer
+{
+    width: 100%;
+    height: 50vh;
+    background-color: #292825;
+    margin-top: 50px;
+}
+
+footer .footerdata
+{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+}
+footer .footerdata .footerdata1
+{
+    width: 31%;
+    height: 90%;
+    text-align: center;
+
+}
+footer .footerdata .footerdata1 h4
+{
+    color: white;
+    font-size: 20px;
+    font-family: "Lato", sans-serif;
+
+}
+footer .footerdata .footerdata1 ul
+{
+    list-style: none;
+
+}
+footer .footerdata .footerdata1 li
+{
+    padding-bottom: 10px;
+}
+footer .footerdata .footerdata1 a
+{
+    text-decoration: none;
+    color:  #8c979e;
+    font-family: "Lato", sans-serif;
+
+}
+footer .footerdata .footerdata1 i
+{
+    color:  #8c979e;
+    
+}
+footer .footerdata .footerdata1 a:hover,
+footer .footerdata .footerdata1 a:focus
+{
+    cursor: pointer;
+    transition: .3s;
+    color: #6a4d8a;
+}
+.footerbottom
+{
+    background-color:#242320 ;
+    width: 100%;
+    height: 30%;
+    text-align: center;
+    padding: 50px;
+    color: white;
+    font-family: "Lato", sans-serif;
+
+
+}
+
+
+@media only screen and (max-width: 480px) {
+    .titleheader h1 {
+        font-size: 40px;
+    }
+    .titleheader p {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .titleheader .btn {
+        padding: 10px 40px;
+        font-size: 16px;
+    }
+}
+
+/* Continue with the remaining CSS and add media queries as needed */
+
+/* For the rest of the sections */
+.sectionabout {
+    width: 100%;
+    height: 70vh;
+    background-color: white;
+}
+.sectionabout .about {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.sectionabout .about .abouttitle {
+    width: 90%;
+    height: 40%;
+    text-align: center;
+    padding-top: 60px;
+    position: absolute;
+    top: 103px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.sectionabout .about .abouttitle h3 {
+    font-family: "Montserrat", sans-serif;
+    color: #545454;
+    margin: 0px 0px 45px 0px;
+    font-weight: bold;
+    font-size: 30px;
+}
+.sectionabout .about .abouttitle p {
+    font-family: "Lato", sans-serif;
+    color: #8c9597;
+    word-spacing: 1px;
+    font-weight: 400;
+    font-size: 16px;
+}
+.sectionabout .about .skillsabout {
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-top: 50px;
+}
+.sectionabout .about .skillsabout .allskills {
+    width: 100%;
+    height: 100%;
+    padding-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.sectionabout .about .skillsabout .allskills .skill1,
+.sectionabout .about .skillsabout .allskills .skill2,
+.sectionabout .about .skillsabout .allskills .skill3 {
+    width: 20%;
+    height: 2px;
+    background-color: #ebebeb;
+    margin-right: 30px;
+}
+.sectionabout .about .skillsabout .allskills .skill1 .range,
+.sectionabout .about .skillsabout .allskills .skill2 .range,
+.sectionabout .about .skillsabout .allskills .skill3 .range {
+    width: 60%;
+    height: 100%;
+    background-color: rgb(241, 139, 109);
+    position: relative;
+}
+.sectionabout .about .skillsabout .allskills .skill1 .range .rangecircle,
+.sectionabout .about .skillsabout .allskills .skill2 .range .rangecircle,
+.sectionabout .about .skillsabout .allskills .skill3 .range .rangecircle {
+    position: absolute;
+    top: -4px;
+    right: 0;
+    width: 9px;
+    height: 9px;
+    background-color: rgb(241, 139, 109);
+    border-radius: 50%;
+}
+.sectionabout .about .skillsabout .allskills .skill1 .range .rangecircle .rangecircletitle,
+.sectionabout .about .skillsabout .allskills .skill2 .range .rangecircle .rangecircletitle,
+.sectionabout .about .skillsabout .allskills .skill3 .range .rangecircle .rangecircletitle {
+    position: absolute;
+    top: -38px;
+    right: -28px;
+    background-color: rgb(241, 139, 109);
+    border-radius: 3px;
+    width: 64px;
+    height: 29px;
+    text-align: center;
+    color: white;
+    padding: 5px 4px;
+    font-family: "Lato", sans-serif;
+}
+.sectionabout .about .skillsabout .allskills .skill1 .range .rangecircle .rangecircletitle .ui-progressbar-value-triangle,
+.sectionabout .about .skillsabout .allskills .skill2 .range .rangecircle .rangecircletitle .ui-progressbar-value-triangle,
+.sectionabout .about .skillsabout .allskills .skill3 .range .rangecircletitle .ui-progressbar-value-triangle {
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    position: absolute;
+    bottom: -5px;
+    right: 27px;
+    border-width: 5px 5.5px 0px 5.5px;
+}
+
+@media only screen and (max-width: 768px) {
+    .sectionabout .about .skillsabout .allskills .skill1,
+    .sectionabout .about .skillsabout .allskills .skill2,
+    .sectionabout .about .skillsabout .allskills .skill3 {
+        width: 90%;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    .sectionabout .about .skillsabout .allskills .skill1 .range,
+    .sectionabout .about .skillsabout .allskills .skill2 .range,
+    .sectionabout .about .skillsabout .allskills .skill3 .range {
+        width: 80%;
+    }
+    header .logo img {
+        top: 20px;
+        left: 20px;
+    }
+    .links ul {
+        top: 20px;
+        left: 20px;
+    }
+    .titleheader p {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    .sectionopinions .opinions .opinionspeople p
+{
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+    padding: 40px 20px 20px 20px;
+}
+.sectionabout .about .skillsabout {
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-top: 50px;
+}
+.sectionabout .about .skillsabout .allskills .skill1,
+.sectionabout .about .skillsabout .allskills .skill2,
+.sectionabout .about .skillsabout .allskills .skill3 {
+    width: 90%;
+    margin-right: 0;
+    margin-bottom: 60px;
+}
+
+.service1 p
+{
+    font-family: "Montserrat", sans-serif;
+    color:#8c9597;
+    font-size: 10px;
+}
+}
+
+@media only screen and (max-width: 480px) {
+    .sectionabout .about .abouttitle h3 {
+        font-size: 24px;
+    }
+    .sectionabout .about .abouttitle p {
+        font-size: 14px;
+    }
+    .titleheader h1 {
+        font-size: 40px;
+    }
+    .titleheader p {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .titleheader .btn {
+        padding: 10px 40px;
+        font-size: 16px;
+    }
+    .sectionphotos .photos img {
+        max-width: 100%;
+    }
+    .sectionopinions .opinions .opinionspeople p
+{
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+    padding: 40px 20px 20px 20px;
+}
+.sectionabout .about .skillsabout {
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-top: 50px;
+}
+.sectionabout .about .skillsabout .allskills .skill1,
+.sectionabout .about .skillsabout .allskills .skill2,
+.sectionabout .about .skillsabout .allskills .skill3 {
+    width: 90%;
+    margin-right: 0;
+    margin-bottom: 60px;
+}
+.service1 p
+{
+    font-family: "Montserrat", sans-serif;
+    color:#8c9597;
+    font-size: 10px;
+}
+}
+
+
+
+
+
